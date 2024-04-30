@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #d1fae5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbarLink {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+a:hover {
+  color: #84cc16;
+}

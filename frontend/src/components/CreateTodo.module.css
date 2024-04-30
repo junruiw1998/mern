@@ -1,0 +1,31 @@
+.create {
+  width: 300px;
+  margin: 20px;
+  padding: 10pxs;
+}
+
+.create > label,
+.create > input {
+  display: block;
+}
+
+.create > input,
+.create > select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.create > button {
+  min-width: 80px;
+  margin: 10px 0px;
+  padding: 10px; /* enlarge the button */
+  background: #22c55e;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
